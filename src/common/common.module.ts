@@ -14,5 +14,6 @@ import * as winston from 'winston';
       transports: [new winston.transports.Console()],
     }),
   ],
+  providers: [],
 })
 export class CommonModule {}
